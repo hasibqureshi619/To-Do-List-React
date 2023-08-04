@@ -1,0 +1,45 @@
+
+.form{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+    margin: auto; 
+}
+.form label{
+    font-size: x-large;
+    margin-right: 10px;
+    font-family:'roboto, sans-serif';
+    font-weight: 600;
+}
+.form input{
+    font-size: medium;
+    margin: 10px;
+    padding: 10px;
+}
+.div{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.task{
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+    width: 20vw;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+} 
+.li input{
+    margin-left: 40px;
+}
+.trash{
+    padding: 20px;
+    margin-top: 15px;
+}
